@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCphotography</title>
+    <link rel="icon" type="image/x-icon" href="Media/Images/Camera icon/favicon.ico">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/gallerystyles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">•Home</a></li>
+                <li><a href="about.html">•Meet Karlie!</a></li>
+                <li><a href="gallery.html">•Gallery</a></li>
+                <li><a href="contact.html">•Contact</a></li>
+            </ul>   
+        </nav>
+    </header>
+
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="wedding">Weddings</button>
+        <button class="filter-btn" data-filter="grad">Graduation</button>
+        <button class="filter-btn" data-filter="portrait">Portraits</button>
+        <button class="filter-btn" data-filter="Sport">Sports</button>
+        <button class="filter-btn" data-filter="Couple/Family">Couples/Family</button>
+    </div>
+
+    <div class="gallery">
+
+        <img src="Media/Images/Weddings/JessieCry.jpeg" class="item wedding" alt="Wedding photo">
+        <img src="Media/Images/Weddings/ColeJessieKiss.jpeg" class="item wedding" alt="Wedding photo">
+        <img src="Media/Images/Weddings/ColeJessieRings.jpeg" class="item wedding" alt="Wedding photo">
+
+        <img src="" class="item grad" alt="Graduation photo">
+        <img src="" class="item grad" alt="Graduation photo">
+
+        <img src="Media/Images/Portraits/AlyssaHeadShot.JPG" class="item portrait" alt="Portrait photo">
+        <img src="Media/Images/Portraits/BriaRedDressOverShoulder.JPG" class="item portrait" alt="Portrait photo">
+        <img src="Media/Images/Portraits/BriaRedDressSmile.JPG" class="item portrait" alt="Portrait photo">
+        <img src="Media/Images/Portraits/BriaBeach1.JPG" class="item portrait" alt="Portrait photo">
+        <img src="Media/Images/Portraits/BriaBeach2.JPG" class="item portrait" alt="Portrait photo">
+        <img src="Media/Images/Portraits/BriaBeach3.JPG" class="item portrait" alt="Portrait photo">
+        <img src="Media/Images/Portraits/BriaBeach4.JPG" class="item portrait" alt="Portrait photo">
+
+        <img src="Media/Images/Sports/BaseballPitcher.JPG" class="item Sport" alt="Sport photo">
+        <img src="Media/Images/Sports/Runner3rdBase.JPG" class="item Sport" alt="Sport photo">
+        <img src="Media/Images/Sports/Batter.JPG" class="item Sport" alt="Sport photo">
+        <img src="Media/Images/Sports/Batter2.JPG" class="item Sport" alt="Sport photo">
+
+        <img src="Media/Images/C&F/AlyssaAugie.JPG" class="item Couple/Family" alt="Couple/Family photo">
+        <img src="Media/Images/C&F/LillainTree.JPG" class="item Couple/Family" alt="Couple/Family photo">
+        <img src="Media/Images/C&F/LillianBench.JPG" class="item Couple/Family" alt="Couple/Family photo">
+        <img src="Media/Images/C&F/LillianHands.JPG" class="item Couple/Family" alt="Couple/Family photo">
+        <img src="Media/Images/C&F/Lillianvines.JPG" class="item Couple/Family" alt="Couple/Family photo">
+
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span id="close">&times;</span>
+        <img id="lightbox-img" src="" alt="">
+    </div>
+
+    <footer>
+        <div id="col1">
+            <h2>Social Media</h2>
+            <h3>Instagram | @karlies_pics</h3>
+        </div>
+        <div id="col2">
+            <p>717-331-7797</p>
+            <p>Creagerkc13@gmail.com</p>
+            <p>Located in Chambersburg, PA | Huntingdon, PA</p>
+        </div>
+    </footer>
+    <script src="JS/galleryscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCphotography</title>
+    <link rel="icon" type="image/x-icon" href="Media/Images/Camera icon/favicon.ico">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/contactstyles.css">
+</head>
+<body>
+     <!--header-->
+    <header>
+        <nav>
+            <ul>
+               <li><a href="index.html">•Home</a></li>
+                <li><a href="about.html">•Meet Karlie!</a></li>
+                <li><a href="gallery.html">•Gallery</a></li>
+                <li><a href="contact.html">•Contact</a></li>
+            </ul>   
+        </nav>
+    </header>
+
+    <!--body of html, start of form-->
+    <form id="contactForm" action="thankyou.html">
+
+ <section id="contact-section">
+
+  <div class="left">
+    <img src="Media/Images/Portraits/BriaBeach1.JPG" alt="Karlie">
+  </div>
+
+  <div class="right">
+
+    <h1>Questions? Ideas?<br>Drop me a line!</h1>
+
+    <form>
+
+      <label>Name (required)</label>
+      <div class="row">
+        <input type="text" id="fname" placeholder="First Name">
+        <input type="text" id="lname" placeholder="Last Name">
+      </div>
+
+      <label>Email Address (required)</label>
+      <input type="email" id="email">
+
+      <label>Cell Number</label>
+      <input type="text" id="cell">
+
+      <label>Which service are you most interested in? (required)</label>
+      <select id="service">
+        <option value="">Select a service</option>
+        <option>Grad Session</option>
+        <option>Confidence-Focused Sessions</option>
+        <option>Weddings</option>
+        <option>Couples/Family Session</option>
+        <option>Other?</option>
+      </select>
+
+      <div id="Message">
+        <p>If you chose "Other?", please explain what you are thinking!</p>
+        <textarea name="Message1" rows="4" cols="60">
+Enter here...
+        </textarea>
+        </div>
+
+      <p id="message"></p>
+
+      <button type="submit">Submit</button>
+
+    </form>
+
+  </div>
+
+</section>
+        
+    <footer>
+        <div id="col1">
+            <h2>Social Media</h2>
+            <h3>Instagram | @karlies_pics</h3>
+        </div>
+        <div id="col2">
+            <p>717-331-7797</p>
+            <p>Creagerkc13@gmail.com</p>
+            <p>Located in Chambersburg, PA | Huntingdon, PA</p>
+        </div>
+    </footer>
+    <script src="JS/contactscript.js"></script>
+</body>
+</html>
