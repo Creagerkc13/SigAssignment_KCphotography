@@ -1,0 +1,218 @@
+#Opening{
+    text-align: center;
+}
+
+#CFP{
+    text-align: center;
+    background-color:#BE95C4;
+}
+
+#CFP2{
+    text-align: center;
+}
+
+#Confidence{
+    background-color:#BE95C4;
+}
+
+#CFP1 img {
+    width: 40%;         
+    max-width: 500px;   
+    aspect-ratio: 1/1; 
+    object-fit: cover;   
+    border-radius: 50%;
+    transition: 0.3s;
+    border: 5px solid white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#CFP1 img:hover {
+    transform: scale(1.05);
+}
+
+#CFP1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#GS{
+    text-align: center;
+    background-color:#BE95C4;
+}
+
+#GS2{
+    text-align: center;
+}
+
+#Grad{
+    background-color:#BE95C4;
+}
+
+
+#Grad1 img {
+    width: 40%;         
+    max-width: 500px;   
+    aspect-ratio: 1/1; 
+    object-fit: cover;   
+    border-radius: 50%;
+    transition: 0.3s;
+    border: 5px solid white;
+    box-shadow: 0 0 20px black;
+}
+
+#Grad1 img:hover {
+    transform: scale(1.05);
+}
+
+#Grad1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#C{
+    text-align: center;
+    background-color:#BE95C4;
+}
+
+#C2{
+    text-align: center;
+}
+
+#Couples{
+    background-color:#BE95C4;
+}
+
+#Couple1 img {
+    width: 40%;         
+    max-width: 500px;   
+    aspect-ratio: 1/1; 
+    object-fit: cover;   
+    border-radius: 50%;
+    transition: 0.3s;
+    border: 5px solid white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#Couple1 img:hover {
+    transform: scale(1.05);
+}
+
+#Couple1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#W{
+    text-align: center;
+    background-color:#BE95C4;
+}
+
+#W2{
+    text-align: center;
+}
+
+#Wedding{
+    background-color:#BE95C4;
+}
+
+#W1 img {
+    width: 40%;         
+    max-width: 500px;   
+    aspect-ratio: 1/1; 
+    object-fit: cover;   
+    border-radius: 50%;
+    transition: 0.3s;
+    border: 5px solid white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#W1 img:hover {
+    transform: scale(1.05);
+}
+
+#W1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#S{
+    text-align: center;
+    background-color:#BE95C4;
+}
+
+#S2{
+    text-align: center;
+}
+
+#Sport{
+    background-color:#BE95C4;
+}
+
+#S1 img {
+    width: 40%;         
+    max-width: 500px;   
+    aspect-ratio: 1/1; 
+    object-fit: cover;   
+    border-radius: 50%;
+    transition: 0.3s;
+    border: 5px solid white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#S1 img:hover {
+    transform: scale(1.05);
+}
+
+#S1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 50px;
+    background-color: #f5f1ec;
+    flex-wrap: wrap;
+}
+
+.service {
+    text-align: center;
+    max-width: 250px;
+}
+
+.service img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.service ol {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#process{
+    text-align: center;
+    background-color:#BE95C4;
+}

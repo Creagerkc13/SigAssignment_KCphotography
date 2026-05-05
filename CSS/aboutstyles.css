@@ -1,0 +1,39 @@
+#Meet{
+    text-align: center;
+    background-color:#BE95C4;
+}
+
+#Meet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    gap: 40px;
+}
+
+#Karlie, #Blurb {
+    flex: 1;
+}
+
+#PicKarlie {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#PicKarlie img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #BE95C4;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
